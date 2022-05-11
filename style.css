@@ -1,0 +1,670 @@
+body {
+    background: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+ * {
+    font-family: "Lato", Sans-serif;
+}
+
+
+
+.nav-bar {
+    width: 100%;;
+    align-items: center;
+    text-align: center;
+    background: rgb(255, 254, 254);
+    margin: 0;
+    padding: 0;
+    color: darkblue;
+    border-bottom: solid 3px  rgb(179, 179, 179);
+}
+
+.nav-bar-top {
+    background: rgb(11, 181, 211);
+    width: 100%;
+}
+.nav-bar-top h5 {
+    margin: 0;
+}
+.nav-bar h3 {
+    margin: 0;
+    padding: 15px;
+    font-weight: 100;
+    font-size: medium;
+    word-break: keep-all;
+}
+
+.nav-section {
+    font-size: xx-small;
+    font-weight: 100;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav-section a {
+    text-decoration: none;
+    font-size: 1.3vh;
+    word-break: break-all;
+    margin: 14px;
+}
+
+.nav-top {
+    margin: 0;
+    justify-content: space-between;
+}
+.nav-logo {
+    left: 35%;
+    width: 25%;
+    padding-left: 17%;
+}
+.nav-number {
+    width: 25%;
+    padding-right: 17%;
+    word-break: break-all;
+}
+
+
+.header-container {
+    margin: 0;
+    width: 100%;
+    background: url('./images/IMG_3669.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-overlay {
+    margin: auto;
+    justify-content: start;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: rgb(0, 0, 0, 0.5);
+}
+
+.company-logo {
+    margin: 0;
+    height: 30%;
+    width: 80%;
+    max-width: 800px;
+    max-height: 200px;
+    padding-top: 8%;
+}
+.header-overlay H2 {
+    color: white;
+    font-weight: 100;
+    margin: 0;
+    font-size: large;
+}
+.header-overlay h3 {
+    margin: 0;
+    color: rgb(11, 181, 211);
+    font-weight: 100;
+    overflow: hidden;
+    font-size: 6vw;
+    
+}
+.header-text {
+    padding: 7%;
+}
+
+.banner {
+    width: 100%;
+    color: rgb(75, 75, 75);
+    background: url('./images/roadbackground3.JPG');
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    background-position: center;
+}
+.banner-overlay {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.637);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.banner-sub-container-heading {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+.banner-sub-container-heading h5 {
+    margin-top: 20%;
+    margin-bottom: 15%;
+    
+    word-break: keep-all;
+    font-size: 6vw;
+    color: #000000;
+}
+
+.banner h3 {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px 12px;
+    font-weight: 700;
+    color: black;
+}
+.banner-sub-container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-inner-container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.why-img {
+    height: 100px;
+    width: 100px;
+    margin: 41px auto;
+}
+
+.header-overlay h5 {
+    margin: auto;
+    padding: 3%;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: 12px;
+}
+
+
+.about-us {
+    margin: 0;
+    text-align: left;
+    background: white;
+}
+
+.about-us-text-container {
+    width: 90%;
+    margin: 0 auto;
+}
+.about-us-text-container h3 {
+    margin: 0;
+    display: flex;
+    color: rgb(11, 181, 211);
+    word-break: keep-all;
+    font-size: 4vh;
+    padding-top: 11%;
+    padding-bottom: 3%;
+    font-weight: 100;
+}
+
+.about-us p {
+    margin: 0;
+    font-size: 17px;
+    word-break: keep-all;
+    padding-bottom: 10%;
+}
+
+
+
+.logo-container {
+    background-color: rgb(11, 181, 211);
+    display: flex;
+    margin: 0;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 14px -5px;
+}
+
+.logo-container img {
+    height: 20vw;
+    width: 27vw;
+    padding: 15px;
+    max-width: 200px;
+    max-height: 140px;
+}
+
+
+.testimonial {
+    display: grid;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.testimonial h3 {
+    margin: 1% auto;
+    color: rgb(11, 181, 211);
+    font-size: 4vh;
+    word-break: break-all;
+    
+}
+
+
+.faq-container {
+    margin: 0;
+    height: 80%;
+    padding: 2%;
+    background: rgb(255, 255, 255);
+    border-radius: 1px;
+}
+.faq-main-text {
+    margin: 20px;
+}
+
+.faq-container h5 {
+    text-align: center;
+    color: rgb(11, 181, 211);
+    margin-top: 30px auto;
+    font-size: 6vw;
+    word-break: keep-all;
+}
+
+.faq-overlay {
+    margin: 0 auto;
+    display: grid;
+}
+
+.faq-container h3 {
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 6vw;
+    font-weight: 600;
+    word-break: keep-all;
+}
+
+.faq-container p {
+    margin: 0 auto;
+    word-break: keep-all;
+    font-size: 17px;
+    color: #626262;
+    line-height: 22px;
+    padding-bottom: 45px;
+    word-break: keep-all;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+
+
+.how-it-works {
+    margin: 30px auto;
+    width: 80%;
+    background: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+.gallery-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+.gallery-btn {
+
+    margin: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: rgb(11, 181, 211);
+}
+.gallery-btn h3 {
+    text-align: center;
+    margin: 0;
+    word-break: break-all;
+    font-size: xx-large;
+    color: white;
+}
+
+.gallery-btn p {
+    font-size: 2vh;
+    color: darkblue;
+    margin: 0;
+}
+
+
+
+.photos-container {
+    margin: 0;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 35px;
+    background: url('background-4.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 70px;
+}
+
+.photos-container h1 {
+    margin: 0;
+    padding: 5%;
+    word-break: keep-all;
+}
+
+
+
+.before-and-after-container {
+    display: inline-block;
+
+}
+
+.before-and-after-container img {
+    height: 100px;
+    width: 200px;
+}
+
+
+.swiper-container {
+    max-width: 600px;
+
+}
+.swiper.wrapper {
+    align-items: center;
+}
+
+.swiper-slide img{
+    width: 100%;
+    height: auto;
+    max-height: 550px;
+    width: 100%;
+    max-width: 1000px;
+    box-shadow: 0px 0px 14px -2px;
+    margin-bottom: 25px;
+}
+
+
+
+.swiper {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+.swiper h3 {
+    margin: 30px auto 0 auto;
+    font-weight: 100;
+    color: #000000;
+    word-break: break-all;
+}
+
+.swiper p {
+    margin: 0 auto 10px auto;
+    padding: 0;
+    font-size: 10px;
+    color: #000000;
+    word-break: break-all;
+}
+
+.swiper-link {
+    text-align: center;
+    background: rgb(255, 255, 255);
+}
+
+
+.video-wrapper {
+    position: relative;
+    text-align: center;
+    background: url("background-5.JPG") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.video-wrapper H3 {
+    padding: 20px;
+    word-break: break-all;
+}
+
+video {
+    margin: auto;
+    width: 100%;
+    /*height: calc(.5625 * 100vw);*/
+    max-width: 1000px;
+    box-shadow: 0px 0px 14px -2px;
+    margin-bottom: 10%;
+}
+
+.video-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.5);
+}
+
+.footer {
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    background: url('mercedes-background.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 14px -2px;
+}
+
+.footer-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+    display: grid;
+    justify-content: space-evenly;
+}
+.footer-overlay h3 {
+    margin: 45px auto 35px auto;
+    word-break: keep-all;
+    font-size: 6vh;
+    justify-content: space-evenly;
+}
+
+.my-icons {
+    margin: 10px 0 0 0;
+    height: 50px;
+    width: 50px;
+}
+.copyright {
+    text-align: center;
+    font-weight: 100;
+    font-size: xx-small;
+    margin: 0px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #777272;
+}
+
+.contact-container {
+    display: flex;
+    align-items: left;
+    justify-content: space-evenly;
+    margin: auto;
+    display: flex;
+}
+
+.contact-us {
+    margin: 40px auto;
+}
+
+
+.material-icons {
+    color: rgb(182, 182, 182);
+    margin: 0;
+    padding: 20px auto 50px auto;
+}
+
+
+.reveal {
+    position: relative;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
+a:link {
+    color: rgb(11, 181, 211);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+color: rgb(0, 0, 0);
+background-color: transparent;
+text-decoration: none;
+}
+
+a:hover {
+color: rgb(209, 209, 209);
+background-color: transparent;
+text-decoration: underline;
+}
+
+a:active {
+color: rgb(11, 181, 211);
+background-color: transparent;
+text-decoration: underline;
+}
+
+
+/*//////////////////////////// Responsive Dedign ////////////////////////////////////// */
+
+
+@media only screen and (max-width: 1000px){
+    .video-overlay {
+        background: rgb(245, 245, 245);
+    }
+    
+}
+
+@media only screen and (min-width: 600px){
+    .header-overlay h3 {
+        font-size: 4vh;
+    }
+
+    .faq-container h3 {
+        font-size: 4vh;
+    }
+    
+}
+
+
+
+@media only screen and (min-width: 800px){
+    .about-us-text-container {
+        width: 60%;
+    }
+
+    .banner {
+        
+        background-position: top;
+    }
+
+    .nav-section a {
+        font-size: 2vh;
+    }
+
+    
+    
+    
+}
+
+
+@media only screen and (min-width: 1000px){
+
+    .header-container {
+        background-attachment: fixed;
+    }
+
+    .header-overlay h3 {
+        font-size: 6vh;
+    }
+    .banner-sub-container {
+        display: flex;
+    }
+
+    .faq-main-text h5 {
+        font-size: 6vh;
+    }
+
+    .faq-container {
+        padding: 3% 12%;
+    }
+
+    .footer-overlay h3 {
+        font-size: 8vh;
+    }
+   
+
+    .faq-overlay {
+        display: flex;
+    }
+    .why-img {
+        margin: 4px auto;
+    }
+
+    .banner h3 {
+        font-weight: 100;
+    }
+
+    .banner h5 {
+        font-size: 2.5vw;
+        font-weight: 100;
+        padding: 3%;
+    }
+}
+
+
+@media only screen and (min-width: 1114px){
+    
+    .banner-overlay {
+        padding-bottom: 6%;
+    }
+
+    .about-us-text-container h3 {
+        padding-top: 7%;
+    }
+    .about-us p {
+        padding-bottom: 7%;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    
+    .footer-overlay {
+        display: flex;
+        width: 70%;
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 250px){
+    
+    .logo-container {
+        display: grid;
+    }
+
+    .contact-container {
+        display: grid;
+    }
+}
+
